@@ -96,9 +96,9 @@ export const artworks: Artwork[] = [
 
 // Artist information
 export const artistInfo = {
-  name: 'ARTISAN VISUALS',
+  name: 'GILES WATKINS',
   tagline: 'Contemporary Mixed Media Artist',
-  email: 'hello@artisanvisuals.com',
+  email: 'hello@gileswatkins.com',
   phone: '+1 (555) 123-4567',
   location: 'New York, NY',
   statement: `My artistic practice explores the intersection of traditional and contemporary mediums,
@@ -116,8 +116,8 @@ export const artistInfo = {
     'Urban Perspectives - Brooklyn Arts Center, New York, 2023'
   ],
   socialMedia: {
-    instagram: 'https://instagram.com/artisanvisuals',
-    twitter: 'https://twitter.com/artisanvisuals',
-    facebook: 'https://facebook.com/artisanvisuals'
+    instagram: 'https://instagram.com/gileswatkins',
+    twitter: 'https://twitter.com/gileswatkins',
+    facebook: 'https://facebook.com/gileswatkins'
   }
 };
