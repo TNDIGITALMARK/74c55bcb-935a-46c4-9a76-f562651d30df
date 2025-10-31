@@ -3,6 +3,7 @@ import "./globals.css";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { artistInfo } from "@/lib/artwork-data";
+import { ZyloProvider } from "@/lib/zylo/provider";
 
 export const metadata: Metadata = {
   title: `${artistInfo.name} - ${artistInfo.tagline}`,
@@ -52,11 +53,13 @@ export default function RootLayout({
         {/* PHOENIX_EDITOR_INJECTION_END */}
       </head>
       <body className="min-h-screen flex flex-col">
-        <Navigation />
-        <main className="flex-grow">
-          {children}
-        </main>
-        <Footer />
+        <ZyloProvider>
+          <Navigation />
+          <main className="flex-grow">
+            {children}
+          </main>
+          <Footer />
+        </ZyloProvider>
       </body>
     </html>
   );
